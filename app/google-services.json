@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "993167582162",
+    "project_id": "countingtraining",
+    "storage_bucket": "countingtraining.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993167582162:android:095962d8f421948fcc9e0b",
+        "android_client_info": {
+          "package_name": "com.example.countingtraining"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993167582162-016utehta2kmdspshi8490s9laod04oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA714SPhghciRlv02nHa2lWmI03YGiUrs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993167582162-016utehta2kmdspshi8490s9laod04oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

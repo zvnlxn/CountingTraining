@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.countingtraining">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CountingTraining">
+        <activity
+            android:name=".view.FinalResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.IncreaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.DivisionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SubtractionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.AddingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.OverGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LevelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.RegistrationActivity"
+            android:exported="true"
+            android:theme="@style/SplashTime">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginActivity"
+    android:background="#F3F1E9"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="#111111"
+        android:textSize="30sp"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textColor="#111111"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textColor="#111111"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/btnStartLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#509EC8"
+        android:layout_gravity="center"
+        android:text="Start"/>
+    <TextView
+        android:id="@+id/tvRegistr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Создать аккаунт"
+        android:textSize="17sp"
+        android:textColor="#509EC8"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>

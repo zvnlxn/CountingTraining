@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CountingTraining/app/src/main/res/drawable/logo_background.xml" value="0.40260416666666665" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_adding.xml" value="0.35054347826086957" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_division.xml" value="0.35054347826086957" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_final_result.xml" value="0.38645833333333335" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_game.xml" value="0.33" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_increase.xml" value="0.35054347826086957" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_levels.xml" value="0.1879432624113475" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_login.xml" value="0.36367753623188404" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_main.xml" value="0.36367753623188404" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_over_game.xml" value="0.36367753623188404" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_registration.xml" value="0.36367753623188404" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/activity_subtraction.xml" value="0.35054347826086957" />
+        <entry key="..\:/CountingTraining/app/src/main/res/layout/item_overgame.xml" value="0.33" />
+        <entry key="..\:/Users/user.SCHOOL619/AndroidStudioProjects/CountingTraining/app/src/main/res/layout/activity_game.xml" value="0.365625" />
+        <entry key="..\:/Users/user.SCHOOL619/AndroidStudioProjects/CountingTraining/app/src/main/res/layout/activity_levels.xml" value="0.365625" />
+        <entry key="..\:/Users/user.SCHOOL619/AndroidStudioProjects/CountingTraining/app/src/main/res/layout/activity_login.xml" value="0.365625" />
+        <entry key="..\:/Users/user.SCHOOL619/AndroidStudioProjects/CountingTraining/app/src/main/res/layout/activity_main.xml" value="0.365625" />
+        <entry key="..\:/Users/user.SCHOOL619/AndroidStudioProjects/CountingTraining/app/src/main/res/layout/activity_over_game.xml" value="0.365625" />
+        <entry key="..\:/Users/user.SCHOOL619/AndroidStudioProjects/CountingTraining/app/src/main/res/layout/activity_registration.xml" value="0.365625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

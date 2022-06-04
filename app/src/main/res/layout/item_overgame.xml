@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="20dp"
+    android:clickable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvRazdel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Раздел"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/Points1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Баллы"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            app:layout_constraintTop_toBottomOf="@id/tvRazdel"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/tvday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintTop_toBottomOf="@id/Points1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+        <TextView
+            android:id="@+id/tvRAZDEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сложение"
+            android:textSize="25sp"
+            android:textColor="#509EC8"
+
+            android:layout_marginLeft="15dp"
+            app:layout_constraintBottom_toBottomOf="@id/tvRazdel"
+            app:layout_constraintTop_toTopOf="@id/tvRazdel"
+            app:layout_constraintStart_toEndOf="@id/tvRazdel"/>
+
+
+        <TextView
+            android:id="@+id/POINTS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60"
+            android:textSize="25sp"
+            android:textColor="#509EC8"
+
+            android:layout_marginLeft="15dp"
+            app:layout_constraintBottom_toBottomOf="@id/Points1"
+            app:layout_constraintStart_toEndOf="@id/Points1"
+            app:layout_constraintTop_toTopOf="@id/Points1"/>
+
+
+        <TextView
+            android:id="@+id/tv_DAY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03-06-2022 09:23"
+            android:textSize="25sp"
+            android:textColor="#509EC8"
+
+            android:layout_marginLeft="15dp"
+            app:layout_constraintBottom_toBottomOf="@id/tvday"
+            app:layout_constraintStart_toEndOf="@id/tvday"
+            app:layout_constraintTop_toTopOf="@id/tvday"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

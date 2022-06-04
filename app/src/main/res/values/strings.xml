@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CountingTraining</string>
+    <string name="title">CountingTraining</string>
+    <string name="tvQuiz_Result">Результат</string>
+    <string name="tvQuiz_messageResult">Неплохой результат,</string>
+    <string name="tv_Level">Уровень:</string>
+
+
+    <string name="tvRule_slide1">Викторина содержит 5 вопросов</string>
+    <string name="tvRule_slide2">За правильный ответ даётся 5 баллов</string>
+    <string name="tvRule_slide3">За неверный ответ списывается 2 балла</string>
+    <string name="tvRule_slide4">Все баллы сохраняются в Отчёте</string>
+    <string name="btnStartAgain">Играть снова!</string>
+    <string name="tvHistory_points">Все баллы :</string>
+    <string name="tvHistory_question">Количество ответов :</string>
+
+    <string name="tvH_subject">Раздел :</string>
+    <string name="tvH_Allpoints">Общие баллы :</string>
+    <string name="tvH_data">Дата :</string>
+    <string name="tv_ResCorrect">Правильных ответов:</string>
+    <string name="tv_ResIncorrect">Неправильных ответов:</string>
+    <string name="tv_ResEarned">Заработано:</string>
+    <string name="tv_ResAll">Общее количество баллов:</string>
+
+    <string name="tvQuiz_title">Викторина</string>
+    <string name="tvQuiz_math">Математика</string>
+    <string name="tvQuiz_geog">География</string>
+
+    <string name="etMath_answer">Введите ответ</string>
+    <string name="tvCurrentQuestion">Номер вопроса : 2</string>
+</resources>

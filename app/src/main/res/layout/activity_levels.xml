@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LevelsActivity"
+    android:orientation="vertical"
+    android:background="#F3F1E9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Выберите уровень"
+        android:textColor="#111111"
+        android:textSize="35sp"
+        />
+
+    <Button
+        android:id="@+id/lvlBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Сложение"
+        android:textSize="17sp"
+        android:backgroundTint="#509EC8"/>
+    <Button
+        android:id="@+id/lvlBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Вычитание"
+        android:textSize="17sp"
+        android:backgroundTint="#509EC8"/>
+    <Button
+        android:id="@+id/lvlBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Деление"
+        android:textSize="17sp"
+        android:backgroundTint="#509EC8"/>
+    <Button
+        android:id="@+id/lvlBtn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Умножение"
+        android:textSize="17sp"
+        android:backgroundTint="#509EC8"/>
+
+
+</LinearLayout>
